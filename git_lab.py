@@ -1,5 +1,9 @@
 import math
 
+def add_numbers(a, b):
+    """Returns the sum of two numbers."""
+    return a + b
+
 def calculate_circle_area(radius):
     """
     Calculate the area of a circle given its radius.
