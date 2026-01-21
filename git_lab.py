@@ -1,8 +1,5 @@
 import math
 
-def subtract(a, b):
-    return a - b
-
 def calculate_circle_area(radius):
     """
     Calculate the area of a circle given its radius.

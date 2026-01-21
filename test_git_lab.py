@@ -1,4 +1,15 @@
 import unittest
+from git_lab import add_numbers
+
+class TestGitLab(unittest.TestCase):
+    def test_add_numbers(self):
+        self.assertEqual(add_numbers(2, 3), 5)
+        self.assertEqual(add_numbers(-1, 1), 0)
+
+if __name__ == "__main__":
+    unittest.main()
+
+import unittest
 from git_lab import (
     calculate_circle_area,
     celsius_to_fahrenheit,
